@@ -110,7 +110,7 @@ p {
     font-size: 100%;
 }
 
-.row {
+.contenedor {
     width: 100%;
     float: left;
     position: absolute;
@@ -125,9 +125,9 @@ p {
     .cuadro1 {width: 47%;}
     .cuadro2 {width: 47%;}
     .cuadro3 {width: 96%;}
-    .row {flex-wrap: wrap;}
+    .contenedor {flex-wrap: wrap;}
 }
 
 @media (max-width: 767px) {
-    .row {flex-direction: column; width: 35%;}
+    .contenedor {flex-direction: column; width: 35%;}
 }
